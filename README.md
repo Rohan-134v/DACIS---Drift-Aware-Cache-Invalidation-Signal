@@ -103,7 +103,6 @@ This codebase supports an active research manuscript. Results and metrics should
 | **Rohan** | Engineered the AMLSim replay pipeline with controllable fraud-burst injection for reproducible experiments; built the asynchronous FastAPI serving layer and migrated cache state from an in-memory dictionary to Redis; implemented all five evaluation scenarios and baseline systems; contributed to the experimental setup, baseline comparison, and ablation sections of the manuscript in preparation. |
 | **Kaushik** | Derived and implemented the PyTorch dual-gate cache invalidation algorithm for temporal GNNs, achieving 99.21% precision on AMLSim; trained and debugged TGN and GraphSAGE models across Elliptic Bitcoin, AMLSim, PaySim, and IEEE-CIS; designed ablation and statistical validation protocols, including a documented negative result; authored core manuscript sections and produced architecture and results figures for the planned IEEE submission. |
 
-To tag Kaushik correctly in GitHub, replace the display name in this table with his verified GitHub handle before publishing or open a follow-up pull request with the handle.
 
 ## License
 
