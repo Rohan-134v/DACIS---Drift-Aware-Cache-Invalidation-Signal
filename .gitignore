@@ -1,0 +1,41 @@
+# Dependencies and generated application output
+node_modules/
+**/node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+!**/.env.local.example
+*.local
+**/neurovox-*-firebase-adminsdk-*.json
+service-account*.json
+firebase-adminsdk*.json
+credentials*.json
+secrets/
+
+# Large generated ML artifacts; download or generate these separately.
+DACIS_Backend/DACIS/dacis-backend/models/*.pt
+DACIS_Backend/DACIS/dacis-backend/models/*.pth
+DACIS_Backend/DACIS/dacis-backend/models/*.ckpt
+DACIS_Backend/DACIS/dacis-backend/models/*.bin
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
